@@ -174,7 +174,14 @@ AdvancedTextColumn::make('phone')
     ->masked()
 ```
 
-If you want an alternative mask, you can pass a string to the **masked** method.
+If you want to apply a mask based on a condition, you can pass a closure that returns a boolean value.
+
+```php
+AdvancedTextColumn::make('phone')
+    ->masked(fn () => ! auth()->user()->is_admin)
+```
+
+You can change the mask character by passing a **masked** option to the component.
 
 ```php
 AdvancedTextColumn::make('phone')
