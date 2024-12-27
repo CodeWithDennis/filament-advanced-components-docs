@@ -178,5 +178,5 @@ If you want an alternative mask, you can pass a string to the **masked** method.
 
 ```php
 AdvancedTextColumn::make('phone')
-    ->masked($mask = '█')
+    ->masked(masked: '█')
 ```
