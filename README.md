@@ -51,6 +51,8 @@ Password: [license-key]
 
 You can add a prefix or suffix images `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, and `AdvancedTextEntry` components. This allows you to add more context to the data you are displaying.
 
+![advanced-text-column-badge](art/table-with-filter.png)
+
 Here is an example of how you can add a prefix image to a column:
 
 ```php
