@@ -47,8 +47,8 @@ Password: [license-key]
 
 ## Components
 
-The following components are available in the package:
-- 
+The following components are available in the package: 
+
 - AdvancedCheckboxList
 - AdvancedSelectFilter
 - AdvancedSelect
