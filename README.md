@@ -49,7 +49,7 @@ Password: [license-key]
 
 ### Image (Prefix & Suffix)
 
-You can add a prefix or suffix images `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, and `AdvancedTextEntry` components. This allows you to add more context to the data you are displaying. The following components support prefix and suffix images:
+You can add a prefix or suffix images `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, and `AdvancedTextEntry` components. This allows you to add more context to the data you are displaying.
 
 Here is an example of how you can add a prefix image to a column:
 
