@@ -181,12 +181,26 @@ If you want to apply a mask based on a condition, you can pass a closure that re
 
 ```php
 AdvancedTextColumn::make('phone')
-    ->masked(fn () => ! auth()->user()->is_admin)
+    ->masked(masked: fn () => ! auth()->user()->is_admin)
 ```
 
 You can change the mask character by passing a **masked** option to the component.
 
 ```php
 AdvancedTextColumn::make('phone')
-    ->masked(masked: '█')
+    ->masked(pattern: '█')
+```
+
+Do you want to start the mask from a specific index? No worries, you can pass a **index** option to the component.
+
+```php
+AdvancedTextColumn::make('phone')
+    ->masked(index: 3)
+```
+
+The length of the mask can be changed by passing a **length** option to the component. When the length is set to `null` (default), the mask will be applied to the whole value.
+
+```php
+AdvancedTextColumn::make('phone')
+    ->masked(length: 5)
 ```
