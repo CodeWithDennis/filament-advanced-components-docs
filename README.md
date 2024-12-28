@@ -205,3 +205,6 @@ AdvancedTextColumn::make('phone')
     ->masked()
     ->maskLength(5)
 ```
+
+## Code Distribution
+Filament Advanced Components licenses strictly prohibit the public distribution of its source code. This means you are not permitted to use Filament Advanced Components to build an application and then distribute that application publicly through open-source repositories, hosting platforms, or any other code-sharing platforms.
