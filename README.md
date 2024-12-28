@@ -167,9 +167,6 @@ AdvancedTextColumn::make('phone')
 ### Masked
 If you want to mask a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **masked** method.
 
-> [!NOTE]  
-> The value will only be masked on the frontend
-
 ![advanced-text-column-badge](art/masked.png)
 
 ```php
