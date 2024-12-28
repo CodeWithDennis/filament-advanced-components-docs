@@ -61,6 +61,9 @@ The following components are available in the package:
 
 You can add a prefix or suffix images `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, and `AdvancedTextEntry` components. This allows you to add more context to the data you are displaying.
 
+> [!NOTE]  
+> The prefix and suffix method on the `AdvancedTextColumn` is similar to `->icon('')` but with more flexibility and also allows both prefix and suffix image at the same time.
+
 ![advanced-text-column-badge](art/table-with-filter.png)
 
 Here is an example of how you can add a prefix image to a column:
