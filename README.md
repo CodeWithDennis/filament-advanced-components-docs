@@ -60,7 +60,7 @@ The following components are available in the package:
 
 ### Image (Prefix & Suffix)
 
-You can add a prefix or suffix images `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, and `AdvancedTextEntry` components. This allows you to add more context to the data you are displaying.
+You can add a prefix or suffix images to `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, and `AdvancedTextEntry` components. This allows you to add more context to the data you are displaying.
 
 > [!NOTE]  
 > The prefix and suffix method on the `AdvancedTextColumn` is similar to `->icon('')` but with more flexibility and also allows both prefix and suffix image at the same time.
