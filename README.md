@@ -41,9 +41,10 @@ Password: [license-key]
 ```
 
 ## Future plans
-- [ ] The ability to add badges to a column.
-- [X] The ability to mask a column.
-- [ ] The ability to add a download button to a column.
+- [ ] The ability to add badges to a column
+- [X] The ability to mask a column
+- [ ] The ability to add a download button to a column
+- [ ] Multiple prefix and suffix images on components
 
 ## Components
 
