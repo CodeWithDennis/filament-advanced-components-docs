@@ -206,5 +206,37 @@ AdvancedTextColumn::make('phone')
     ->maskLength(5)
 ```
 
+## Bold
+If you want to make a value bold on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **bold** method.
+
+```php
+AdvancedTextColumn::make('name')
+    ->bold()
+```
+
+## Bold
+If you want to underline a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **underline** method.
+
+```php
+AdvancedTextColumn::make('name')
+    ->underline()
+```
+
+## Italic
+If you want to italicize a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **italic** method.
+
+```php
+AdvancedTextColumn::make('name')
+    ->italic()
+```
+
+## Strikethrough
+If you want to "strikethrough" a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **strikeThrough** method.
+
+```php
+AdvancedTextColumn::make('name')
+    ->strikeThrough()
+```
+
 ## Code Distribution
 Filament Advanced Components licenses strictly prohibit the public distribution of its source code. This means you are not permitted to use Filament Advanced Components to build an application and then distribute that application publicly through open-source repositories, hosting platforms, or any other code-sharing platforms.
