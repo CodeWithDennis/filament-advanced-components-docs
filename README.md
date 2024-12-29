@@ -224,7 +224,7 @@ AdvancedTextColumn::make('name')
     ->bold()
 ```
 
-## Bold
+## Underline
 If you want to underline a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **underline** method.
 
 ```php
