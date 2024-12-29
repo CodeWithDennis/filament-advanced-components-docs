@@ -6,9 +6,9 @@ This plugin extends existing **FilamentPHP 3** components with advanced features
 > All components are extending the default Filament components, so you can use them as you would use the default components without any issues. This package is designed to enhance the default components, not to replace them.
 
 ## Licences
-You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website.
+You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website for $39.99. This is a lifetime license, which means you only need to pay once and the best part is that you can use it on multiple projects.
 
-## Installation instructions
+## Installation
 
 Filament Advanced Components uses AnyStack to handle payment, licensing, and distribution.
 
@@ -40,11 +40,21 @@ Username: [licensee-email]
 Password: [license-key]
 ```
 
+### Custom Theme
+You will need a [custom theme](https://filamentphp.com/docs/3.x/panels/themes#creating-a-custom-theme) to use the plugin.
+
+Make sure you add the following to your `tailwind.config.js file.
+
+```bash
+'./vendor/codewithdennis/filament-advanced-components/resources/**/*.blade.php',
+```
+
 ## Future plans
 - [ ] The ability to add badges to a column
-- [X] The ability to mask a column
+- [X] The ability to mask values on certain components
 - [ ] The ability to add a download button to a column
 - [ ] Multiple prefix and suffix images on components
+- [X] Quick use of `bold`, `italic`, `underline`, and `strikethrough` on components
 
 ## Components
 
