@@ -6,7 +6,7 @@ This plugin extends existing **FilamentPHP 3** components with advanced features
 > All components are extending the default Filament components, so you can use them as you would use the default components without any issues. This package is designed to enhance the default components, not to replace them.
 
 ## Licences
-You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website for $39.99. This is a lifetime license, which means you only need to pay once and the best part is that you can use it on multiple projects.
+You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website for $59.99. This is a lifetime license, which means you only need to pay once and the best part is that you can use it on multiple projects.
 
 ## Installation
 
