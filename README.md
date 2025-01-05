@@ -248,6 +248,8 @@ AdvancedTextColumn::make('name')
 ## Badges
 If you want to add badges to a `AdvancedTextColumn`, you can use the **badges** method.
 
+![advanced-text-column-badge](art/table-text-column-badges.png)
+
 ```php
 AdvancedTextColumn::make('name')
     ->badges([
