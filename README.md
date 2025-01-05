@@ -75,7 +75,8 @@ You can add a prefix or suffix images to `AdvancedTextColumn`, `AdvancedCheckbox
 > [!NOTE]  
 > The prefix and suffix method on the `AdvancedTextColumn` is similar to `->icon('')` but with more flexibility and also allows both prefix and suffix image at the same time.
 
-![advanced-text-column-badge](art/table-with-filter.png)
+![table-with-filter](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/main/art/table-with-filter.png)
+
 
 Here is an example of how you can add a prefix image to a column:
 
@@ -105,7 +106,7 @@ AdvancedTextColumn::make('country.name')
 
 Do you have a badge-able column? No worries, the image will be displayed inside the badge.
 
-![advanced-text-column-badge](art/advanced-text-column-badge.png)
+![advanced-text-column-badge](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/main/art/advanced-text-column-badge.png)
 
 If you want to add extra attributes to the image, you can use the **prefixImageExtraAttributes** or **suffixImageExtraAttributes** methods.
 
@@ -178,8 +179,7 @@ AdvancedTextColumn::make('phone')
 ### Masked
 If you want to mask a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **masked** method.
 
-![advanced-text-column-badge](art/masked.png)
-
+![masked](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/main/art/masked.png)
 ```php
 AdvancedTextColumn::make('phone')
     ->masked()
