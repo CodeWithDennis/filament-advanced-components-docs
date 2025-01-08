@@ -282,10 +282,10 @@ If you want to make a badge bounce you can use the **bounce** method.
 ```
 
 ### Radius
-If you want to change the border radius of the badge you can use the **radius** method.
+If you want to change the border radius of the badge you can use the **borderRadius** method.
 
 ```php
-->radius(5) // in pixels
+->borderRadius(5) // in pixels
 ```
 
 ## Code Distribution
