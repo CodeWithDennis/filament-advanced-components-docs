@@ -248,7 +248,7 @@ AdvancedTextColumn::make('name')
 ## Badges
 If you want to add badges to a `AdvancedTextColumn`, you can use the **badges** method.
 
-![advanced-text-column-badge](art/badges.png)
+![advanced-text-column-badges](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/main/art/badges.png)
 
 ```php
 AdvancedTextColumn::make('name')
