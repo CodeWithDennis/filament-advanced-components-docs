@@ -49,12 +49,8 @@ Make sure you add the following to your `tailwind.config.js file.
 './vendor/codewithdennis/filament-advanced-components/resources/**/*.blade.php',
 ```
 
-## Future plans
-- [ ] The ability to add badges to a column
-- [X] The ability to mask values on certain components
-- [ ] The ability to add a download button to a column
+## Upcoming
 - [ ] Multiple prefix and suffix images on components
-- [X] Quick use of `bold`, `italic`, `underline`, and `strikethrough` on components
 
 ## Components
 
@@ -65,12 +61,13 @@ The following components are available in the package:
 - AdvancedSelect
 - AdvancedTextColumn
 - AdvancedTextEntry
+- AdvancedBadge (can only be used inside the AdvancedTextColumn)
 
 ## Usage
 
 ### Image (Prefix & Suffix)
 
-You can add a prefix or suffix images to `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, and `AdvancedTextEntry` components. This allows you to add more context to the data you are displaying.
+You can add a prefix or suffix images to `AdvancedTextColumn`, `AdvancedCheckboxList`, `AdvancedSelectFilter`, `AdvancedSelect`, `AdvancedTextEntry`, `AdvancedBadge` components. This allows you to add more context to the data you are displaying.
 
 > [!NOTE]  
 > The prefix and suffix method on the `AdvancedTextColumn` is similar to `->icon('')` but with more flexibility and also allows both prefix and suffix image at the same time.
@@ -217,7 +214,7 @@ AdvancedTextColumn::make('phone')
 ```
 
 ## Bold
-If you want to make a value bold on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **bold** method.
+If you want to make a value bold on a `AdvancedTextColumn`, `AdvancedTextEntry`  or `AdvancedBadge`, you can use the **bold** method.
 
 ```php
 AdvancedTextColumn::make('name')
@@ -225,7 +222,7 @@ AdvancedTextColumn::make('name')
 ```
 
 ## Underline
-If you want to underline a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **underline** method.
+If you want to underline a value on a `AdvancedTextColumn`, `AdvancedTextEntry` or `AdvancedBadge`, you can use the **underline** method.
 
 ```php
 AdvancedTextColumn::make('name')
@@ -233,7 +230,7 @@ AdvancedTextColumn::make('name')
 ```
 
 ## Italic
-If you want to italicize a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **italic** method.
+If you want to italicize a value on a `AdvancedTextColumn`, `AdvancedTextEntry` or `AdvancedBadge`, you can use the **italic** method.
 
 ```php
 AdvancedTextColumn::make('name')
@@ -241,11 +238,54 @@ AdvancedTextColumn::make('name')
 ```
 
 ## Strikethrough
-If you want to "strikethrough" a value on a `AdvancedTextColumn` or `AdvancedTextEntry`, you can use the **strikeThrough** method.
+If you want to "strikethrough" a value on a `AdvancedTextColumn`, `AdvancedTextEntry` or `AdvancedBadge`, you can use the **strikeThrough** method.
 
 ```php
 AdvancedTextColumn::make('name')
     ->strikeThrough()
+```
+
+## Badges
+If you want to add badges to a `AdvancedTextColumn`, you can use the **badges** method.
+
+![advanced-text-column-badge](art/badges.png)
+
+```php
+AdvancedTextColumn::make('name')
+    ->badges([
+        AdvancedBadge::make('gold')
+            ->label(__('High Quality'))
+            ->color('warning'),
+        ])
+```
+
+### Color
+If you want to change the color of the badge you can use the **color** method.
+
+```php
+AdvancedBadge::make('gold')
+    ->color('warning')
+```
+
+### Pulse
+If you want to make a badge pulse you can use the **pulse** method.
+
+```php
+->pulse()
+```
+
+### Bounce
+If you want to make a badge bounce you can use the **bounce** method.
+
+```php
+->bounce()
+```
+
+### Radius
+If you want to change the border radius of the badge you can use the **borderRadius** method.
+
+```php
+->borderRadius(5) // in pixels
 ```
 
 ## Code Distribution
