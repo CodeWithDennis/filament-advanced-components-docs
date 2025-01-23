@@ -186,7 +186,7 @@ If you want to apply a mask based on a condition, you can pass a closure that re
 
 ```php
 AdvancedTextColumn::make('phone')
-    ->masked(! auth()->user()->is_admin)
+    ->masked(fn() => ! auth()->user()->is_admin)
 ```
 
 You can change the mask character by passing a **maskCharacters** option to the component.
