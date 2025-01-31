@@ -267,6 +267,14 @@ AdvancedBadge::make('gold')
     ->color('warning')
 ```
 
+### Border
+If you want to have a border on your badge you can use the **border** method.
+
+```php
+AdvancedBadge::make('gold')
+    ->border()
+```
+
 ### Pulse
 If you want to make a badge pulse you can use the **pulse** method.
 
