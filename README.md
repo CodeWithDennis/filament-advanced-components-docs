@@ -49,9 +49,6 @@ Make sure you add the following to your `tailwind.config.js file.
 './vendor/codewithdennis/filament-advanced-components/resources/**/*.blade.php',
 ```
 
-## Upcoming
-- [ ] Multiple prefix and suffix images on components
-
 ## Components
 
 The following components are available in the package: 
@@ -61,6 +58,7 @@ The following components are available in the package:
 - AdvancedSelect
 - AdvancedTextColumn
 - AdvancedTextEntry
+- AdvancedTextInput
 - AdvancedBadge (can only be used inside the AdvancedTextColumn)
 
 ## Usage
@@ -243,6 +241,17 @@ If you want to "strikethrough" a value on a `AdvancedTextColumn`, `AdvancedTextE
 ```php
 AdvancedTextColumn::make('name')
     ->strikeThrough()
+```
+
+## AdvancedTextInput
+
+### Copyable
+
+To make an advanced text input field copyable, use the `copyable()` method.
+
+```php
+AdvancedTextInput('email')
+    ->copyable(),
 ```
 
 ## Badges
