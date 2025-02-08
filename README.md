@@ -250,7 +250,7 @@ AdvancedTextColumn::make('name')
 To make an advanced text input field copyable, use the `copyable()` method.
 
 ```php
-AdvancedTextInput('email')
+AdvancedTextInput::make('email')
     ->copyable(),
 ```
 
