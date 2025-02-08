@@ -49,6 +49,12 @@ Make sure you add the following to your `tailwind.config.js file.
 './vendor/codewithdennis/filament-advanced-components/resources/**/*.blade.php',
 ```
 
+Include the following import in your theme stylesheet.
+
+```css
+@import '/vendor/codewithdennis/filament-advanced-components/resources/css/index.css';
+```
+
 ## Components
 
 The following components are available in the package: 
