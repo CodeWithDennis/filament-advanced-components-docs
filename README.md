@@ -66,6 +66,7 @@ The following components are available in the package:
 - AdvancedTextEntry
 - AdvancedTextInput
 - AdvancedBadge (can only be used inside the AdvancedTextColumn)
+- AdvancedToggleButtonsFilter (Allows you to use the ToggleButtons as a filter)
 
 ## Usage
 
@@ -310,6 +311,19 @@ If you want to change the border radius of the badge you can use the **borderRad
 ```php
 ->borderRadius(5) // in pixels
 ```
+
+## Filters
+
+### AdvancedToggleButtonsFilter
+
+```php
+->filters([
+    AdvancedToggleButtonsFilter::make('status')
+        ->options(CompanyStatus::class)
+        ->inline(),
+])
+```
+
 
 ## Code Distribution
 Filament Advanced Components licenses strictly prohibit the public distribution of its source code. This means you are not permitted to use Filament Advanced Components to build an application and then distribute that application publicly through open-source repositories, hosting platforms, or any other code-sharing platforms.
