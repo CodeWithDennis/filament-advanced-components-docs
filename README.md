@@ -90,7 +90,7 @@ AdvancedCheckboxList::make('country.name')
 You can add an image as a suffix to the text column. The image will be displayed on the right side of the text column.
 
 ```php
-AdvancedTextColumn::make('country.name')
+AdvancedSelect::make('country.name')
     ->relationship('country', 'name')
     ->suffixImage(fn (Country $record) => asset('images/'.$record->image))
     ->suffixImageSize(32)
@@ -104,7 +104,7 @@ AdvancedTextColumn::make('country.name')
 You can add an image as a prefix to the text column. The image will be displayed on the left side of the text column.
 
 ```php
-AdvancedTextColumn::make('country.name')
+AdvancedSelect::make('country.name')
     ->relationship('country', 'name')
     ->prefixImage(fn (Country $record) => asset('images/'.$record->image))
     ->prefixImageSize(32)
@@ -332,6 +332,7 @@ You can add an image as a suffix to the text column. The image will be displayed
 
 ```php
 AdvancedSelect::make('country.name')
+    ->relationship('country', 'name')
     ->suffixImage(fn (Country $record) => asset('images/'.$record->image))
     ->suffixImageSize(16)
     ->suffixImageExtraAttributes([
@@ -345,6 +346,7 @@ You can add an image as a prefix to the text column. The image will be displayed
 
 ```php
 AdvancedSelect::make('country.name')
+    ->relationship('country', 'name')
     ->prefixImage(fn (Country $record) => asset('images/'.$record->image))
     ->prefixImageSize(16)
     ->prefixImageExtraAttributes([
