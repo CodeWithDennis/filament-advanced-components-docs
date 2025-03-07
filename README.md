@@ -580,7 +580,7 @@ AdvancedTextInput::make('email')
 
 To display the character count, use the `characterCount()` method. If you want live character count, you need to make your field `live`.
 
-![character-count](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/character-count-limit.png)
+![character-count-text-input](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/character-count-limit-text-input.png)
 
 ```php
 AdvancedTextInput::make('description')
