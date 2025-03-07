@@ -193,6 +193,8 @@ AdvancedTextEntry::make('phone')
 
 If you want to mask value you can use the **masked** method.
 
+![masked](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/masked.png)
+
 ```php
 AdvancedTextEntry::make('phone')
     ->masked()
@@ -267,7 +269,7 @@ AdvancedTextEntry::make('name')
 
 ### Badges
 
-If you want to add badges to a `AdvancedTextColumn`, you can use the **badges** method.
+If you want to add badges to a `AdvancedTextEntry`, you can use the **badges** method.
 
 ```php
 AdvancedTextEntry::make('name')
@@ -331,8 +333,7 @@ AdvancedBadge::make('quality')
 You can add an image as a suffix to the text column. The image will be displayed on the right side of the text column.
 
 ```php
-AdvancedSelect::make('country.name')
-    ->relationship('country', 'name')
+AdvancedTextColumn::make('country.name')
     ->suffixImage(fn (Country $record) => asset('images/'.$record->image))
     ->suffixImageSize(16)
     ->suffixImageExtraAttributes([
@@ -345,8 +346,7 @@ AdvancedSelect::make('country.name')
 You can add an image as a prefix to the text column. The image will be displayed on the left side of the text column.
 
 ```php
-AdvancedSelect::make('country.name')
-    ->relationship('country', 'name')
+AdvancedTextColumn::make('country.name')
     ->prefixImage(fn (Country $record) => asset('images/'.$record->image))
     ->prefixImageSize(16)
     ->prefixImageExtraAttributes([
@@ -482,6 +482,8 @@ AdvancedTextColumn::make('name')
 
 If you want to add badges to a `AdvancedTextColumn`, you can use the **badges** method.
 
+![badges](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/badges.png)
+
 ```php
 AdvancedTextColumn::make('name')
     ->badges(function(Model $record) {
@@ -609,6 +611,8 @@ Similar to the `ToggleButtons` form component, the `AdvancedToggleButtonsFilter`
 ### AdvancedSelectFilter
 
 Similar to the `AdvancedSelect` form component, the `AdvancedSelectFilter` allows you to filter using a select dropdown.
+
+![advanced-select-filter](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/advanced-select-filter.png)
 
 ### Suffix image
 
