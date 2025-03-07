@@ -89,8 +89,6 @@ AdvancedCheckboxList::make('country.name')
 
 You can add an image as a suffix to the text column. The image will be displayed on the right side of the text column.
 
-![advanced-select](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/advanced-select.png)
-
 ```php
 AdvancedSelect::make('country.name')
     ->relationship('country', 'name')
@@ -104,6 +102,8 @@ AdvancedSelect::make('country.name')
 ### Prefix image
 
 You can add an image as a prefix to the text column. The image will be displayed on the left side of the text column.
+
+![advanced-select](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/advanced-select.png)
 
 ```php
 AdvancedSelect::make('country.name')
