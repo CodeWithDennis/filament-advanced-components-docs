@@ -554,6 +554,8 @@ AdvancedTextarea::make('description')
 
 To show the character limit, use the `characterLimit()` method.
 
+![character-count](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/character-count-limit.png)
+
 > [!WARNING]  
 > This is only **visual** and does not enforce the limit.
 
