@@ -554,7 +554,7 @@ AdvancedTextarea::make('description')
 
 To show the character limit, use the `characterLimit()` method.
 
-![character-count](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/character-count-limit.png)
+![count-textarea](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/count-textarea.png)
 
 > [!WARNING]  
 > This is only **visual** and does not enforce the limit.
@@ -580,7 +580,7 @@ AdvancedTextInput::make('email')
 
 To display the character count, use the `characterCount()` method. If you want live character count, you need to make your field `live`.
 
-![character-count-text-input](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/character-count-limit-text-input.png)
+![character-count-text-input](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/count-text-input.png)
 
 ```php
 AdvancedTextInput::make('description')
