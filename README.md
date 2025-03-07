@@ -646,10 +646,6 @@ AdvancedSelectFilter::make('country.name')
     ]),
 ```
 
-### 
-
-```php
-
 ## Code Distribution
 
 Licenses strictly prohibit the public distribution of its source code. This means you are not permitted to use Filament Advanced Components to build an application and then distribute that application publicly through open-source repositories, hosting platforms, or any other code-sharing platforms.
