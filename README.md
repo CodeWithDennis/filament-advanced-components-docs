@@ -65,8 +65,9 @@ The following components are available in the package:
 - AdvancedTextColumn
 - AdvancedTextEntry
 - AdvancedTextInput
-- AdvancedBadge (can only be used inside the AdvancedTextColumn)
-- AdvancedToggleButtonsFilter (Allows you to use the ToggleButtons as a filter)
+- AdvancedBadge (Only for AdvancedTextColumn)
+- AdvancedToggleButtonsFilter
+- AdvancedTextarea
 
 ## Usage
 
@@ -250,6 +251,27 @@ AdvancedTextColumn::make('name')
     ->strikeThrough()
 ```
 
+## AdvancedTextarea
+
+### Character Count
+
+To display the character count, use the `characterCount()` method. If you want live character count, you need to make your field `live`.
+
+```php
+AdvancedTextarea::make('description')
+    ->characterCount()
+```
+
+### Character Limit
+
+To show the character limit, use the `characterLimit()` method. This is only **visual** and does not enforce the limit.
+
+```php
+AdvancedTextarea::make('description')
+    ->characterCount()
+    ->characterLimit(500),
+```
+
 ## AdvancedTextInput
 
 ### Copyable
@@ -259,6 +281,25 @@ To make an advanced text input field copyable, use the `copyable()` method.
 ```php
 AdvancedTextInput::make('email')
     ->copyable(),
+```
+
+### Character Count
+
+To display the character count, use the `characterCount()` method. If you want live character count, you need to make your field `live`.
+
+```php
+AdvancedTextInput::make('title')
+    ->characterCount(),
+```
+
+### Character Limit
+
+To show the character limit, use the `characterLimit()` method. This is only **visual** and does not enforce the limit.
+
+```php
+AdvancedTextInput::make('title')
+    ->characterCount()
+    ->characterLimit(50),
 ```
 
 ## Badges
