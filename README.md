@@ -604,7 +604,7 @@ AdvancedTextInput::make('description')
 
 ### AdvancedToggleButtonsFilter
 
-![toggle-buttons-filters](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/toggle-buttons-filter.png)
+![toggle-buttons-filter-table](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/toggle-buttons-filter-table.png)
 
 Similar to the `ToggleButtons` form component, the `AdvancedToggleButtonsFilter` allows you to filter using toggle buttons.
 
