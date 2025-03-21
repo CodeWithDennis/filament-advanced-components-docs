@@ -567,6 +567,28 @@ AdvancedTextarea::make('description')
     ->characterLimit(500),
 ```
 
+### Character limit color
+
+You can change the color of the character limit by passing a color to the `characterLimitColor()` method.
+
+```php
+AdvancedTextarea::make('description')
+    ->characterCount()
+    ->characterLimit(50)
+    ->characterLimitColor('danger'),
+```
+
+### Character limit icon
+
+You can add an icon to the character limit by passing an icon to the `characterLimitIcon()` method which will be displayed on the right side of the character limit.
+
+```php
+AdvancedTextarea::make('description')
+    ->characterCount()
+    ->characterLimit(50)
+    ->characterLimitIcon('heroicon-s-exclamation'),
+```
+
 ## AdvancedTextInput
 
 ### Copyable
@@ -600,6 +622,28 @@ To show the character limit, use the `characterLimit()` method.
 AdvancedTextInput::make('description')
     ->characterCount()
     ->characterLimit(500),
+```
+
+### Character limit color
+
+You can change the color of the character limit by passing a color to the `characterLimitColor()` method.
+
+```php
+AdvancedTextInput::make('description')
+    ->characterCount()
+    ->characterLimit(50)
+    ->characterLimitColor('danger'),
+```
+
+### Character limit icon
+
+You can add an icon to the character limit by passing an icon to the `characterLimitIcon()` method which will be displayed on the right side of the character limit.
+
+```php
+AdvancedTextInput::make('description')
+    ->characterCount()
+    ->characterLimit(50)
+    ->characterLimitIcon('heroicon-s-exclamation'),
 ```
 
 ### AdvancedToggleButtonsFilter
