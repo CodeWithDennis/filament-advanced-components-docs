@@ -7,7 +7,7 @@ This plugin **extends** existing **FilamentPHP 3** components with advanced feat
 - [Installation](#installation)
     - [Custom Theme](#custom-theme)
 - [Getting Started](#getting-started)
-    - [Image](#suffix--prefix-image)
+    - [Image](#image)
         - [Image Size](#image-size)
         - [Image extra attributes](#image-extra-attributes)
     - [Mailable](#mailable)
@@ -33,6 +33,7 @@ This plugin **extends** existing **FilamentPHP 3** components with advanced feat
         - [Character limit icon](#character-limit-icon)
     - [Copyable](#copyable)
     - [Filters](#filters)
+        - [AdvancedSelectFilter](#advanced-select-filter)
         - [Toggle Buttons Filter](#toggle-buttons-filter)
 - [Code Distribution](#code-distribution)
 
@@ -341,7 +342,7 @@ Copyable works with the following components; `AdvancedTextInput` which will add
 
 ### Filters
 
-#### AdvancedSelectFilter
+#### Advanced Select Filter
 
 ![advanced-select-filter](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/advanced-select-filter.png)
 
