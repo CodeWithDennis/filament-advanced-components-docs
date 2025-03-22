@@ -2,7 +2,10 @@
 
 This plugin **extends** existing **FilamentPHP 3** components with advanced features and enhanced functionality, offering more powerful and flexible options for your projects.
 
-## Documentation
+## Licences
+You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website.
+
+## Table of Contents
 - [Licences](#licences)
 - [Installation](#installation)
     - [Custom Theme](#custom-theme)
@@ -36,9 +39,6 @@ This plugin **extends** existing **FilamentPHP 3** components with advanced feat
         - [Advanced Select Filter](#advanced-select-filter)
         - [Advanced Toggle Buttons Filter](#toggle-buttons-filter)
 - [Code Distribution](#code-distribution)
-
-## Licences
-You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website.
 
 ## Installation
 
