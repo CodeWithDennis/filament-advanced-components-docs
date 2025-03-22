@@ -12,7 +12,7 @@ You can buy a license for the plugin on the [AnyStack](https://checkout.anystack
     - [Custom Theme](#custom-theme)
 - [Getting Started](#getting-started)
     - [Image](#image)
-        - [Image Size](#image-size)
+        - [Image size](#image-size)
         - [Image extra attributes](#image-extra-attributes)
     - [Mailable](#mailable)
     - [Callable](#callable)
