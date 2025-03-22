@@ -43,7 +43,7 @@ You can buy a license for the plugin on the [AnyStack](https://checkout.anystack
 
 ## Installation
 
-To install the plugin, you need to add the repository to your composer.json file. You can do this by running the following command:
+To install the plugin, you need to add the repository to your `composer.json` file.
 
 ```json
 {
@@ -56,7 +56,7 @@ To install the plugin, you need to add the repository to your composer.json file
 }
 ```
 
-Once the repository has been added to the composer.json file, you can install Filament Advanced Components like any other composer package using the composer require command:
+Once the repository has been added to the composer.json file, you can install the plugin using the following command.
 
 ```bash
 composer require codewithdennis/filament-advanced-components
