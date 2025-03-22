@@ -33,8 +33,8 @@ This plugin **extends** existing **FilamentPHP 3** components with advanced feat
         - [Character limit icon](#character-limit-icon)
     - [Copyable](#copyable)
     - [Filters](#filters)
-        - [AdvancedSelectFilter](#advanced-select-filter)
-        - [Toggle Buttons Filter](#toggle-buttons-filter)
+        - [Advanced Select Filter](#advanced-select-filter)
+        - [Advanced Toggle Buttons Filter](#toggle-buttons-filter)
 - [Code Distribution](#code-distribution)
 
 ## Licences
