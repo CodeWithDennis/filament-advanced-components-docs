@@ -1,10 +1,63 @@
 # Filament Advanced Components
 
+- **[Licensing](#licences)**
+- **[Installation](#installation)**  
+  - **[Repository Addition](#installation)**  
+  - **[Package Installation](#installation)**  
+  - **[Custom Theme](#custom-theme)**  
+    - **[Tailwind Configuration](#custom-theme)**  
+    - **[Stylesheet Import](#custom-theme)** 
+- **[Components](#filament-advanced-components)**  
+  - **[AdvancedCheckboxList](#advancedcheckboxlist)**  
+    - **[Suffix Image](#suffix-image)**  
+    - **[Prefix Image](#prefix-image)**  
+  - **[AdvancedSelect](#advancedselect)**  
+    - **[Suffix Image](#suffix-image-1)**  
+    - **[Prefix Image](#prefix-image-1)**  
+  - **[AdvancedTextEntry](#advancedtextentry)**  
+    - **[Images](#advancedtextentry)**  
+      - **[Suffix Image](#suffix-image-2)**  
+      - **[Prefix Image](#prefix-image-2)**  
+    - **[Interaction](#advancedtextentry)**  
+      - **[Mailable](#mailable)**  
+      - **[Callable](#callable)**  
+      - **[WhatsApp-able](#whatsapp-able)**  
+    - **[Masking](#masked)**  
+    - **[Formatting](#advancedtextentry)**  
+      - **[Bold](#bold)**  
+      - **[Underline](#underline)**  
+      - **[Italic](#italic)**  
+      - **[StrikeThrough](#strikethrough)**  
+    - **[Badges](#badges)**  
+      - **[Core](#badges)**  
+      - **[Styles](#badges)**  
+        - **[Border](#border)**  
+        - **[Pulse](#pulse)**  
+        - **[Bounce](#bounce)**  
+        - **[Border Radius](#border-radius)**  
+        - **[Color](#color)**  
+  - **[AdvancedTextColumn](#advancedtextcolumn)**  
+  - **[AdvancedTextarea](#advancedtextarea)**  
+    - **[Character Count](#character-count)**  
+    - **[Character Limit](#character-limit)**  
+    - **[Limit Color](#character-limit-color)**  
+    - **[Limit Icon](#character-limit-icon)**  
+  - **[AdvancedTextInput](#advancedtextinput)**  
+    - **[Copyable](#copyable)**  
+    - **[Character Count](#character-count-1)**  
+    - **[Character Limit](#character-limit-1)**  
+    - **[Limit Color](#character-limit-color-1)**  
+    - **[Limit Icon](#character-limit-icon-1)**  
+  - **[AdvancedToggleButtonsFilter](#advancedtogglebuttonsfilter)**  
+  - **[AdvancedSelectFilter](#advancedselectfilter)**  
+    - **[Suffix Image](#suffix-image-3)**  
+    - **[Prefix Image](#prefix-image-3)**  
+
 This plugin extends existing **FilamentPHP 3** components with advanced features and enhanced functionality, offering more powerful and flexible options for your projects.
 
 > [!NOTE]  
 > All components are extending the default Filament components, so you can use them as you would use the default components without any issues. This package is designed to enhance the default components, not to replace them.
-
+        
 ## Licences
 You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website.
 
