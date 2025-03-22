@@ -341,6 +341,17 @@ Copyable works with the following components; `AdvancedTextInput` which will add
 
 ### Filters
 
+#### AdvancedSelectFilter
+
+![advanced-select-filter](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/advanced-select-filter.png)
+
+```php
+->filters([
+    AdvancedSelectFilter::make('country.name')
+        ->relationship('country', 'name')
+])
+```
+
 #### Toggle Buttons Filter
 
 ![toggle-buttons-filter](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/toggle-buttons-filter-table.png)
