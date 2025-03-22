@@ -105,7 +105,7 @@ You can add a `suffix` or `prefix` image to the following components; `AdvancedC
 ->prefixImage(fn (Model $record): string => asset('images/'.$record->image))
 ```
 
-#### Image Size
+#### Image size
 
 ```php
 ->suffixImageSize(32)
