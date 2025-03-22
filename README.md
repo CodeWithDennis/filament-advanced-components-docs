@@ -90,9 +90,6 @@ Include the following import in your theme stylesheet.
 
 ### Image
 
-> [!NOTE]  
-> Only works when a relationship is defined.
-
 You can add a `suffix` or `prefix` image to the following components; `AdvancedCheckboxList`, `AdvancedSelect`, `AdvancedSelectFilter`, `AdvancedTextColumn` and `AdvancedTextEntry`.
 
 ![advanced-select](https://raw.githubusercontent.com/CodeWithDennis/filament-advanced-components-documentation/refs/heads/main/art/advanced-select.png)
