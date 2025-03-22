@@ -6,6 +6,7 @@ This plugin **extends** existing **FilamentPHP 3** components with advanced feat
 You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website.
 
 ## Table of Contents
+
 - [Licences](#licences)
 - [Installation](#installation)
     - [Custom Theme](#custom-theme)
