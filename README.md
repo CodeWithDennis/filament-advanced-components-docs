@@ -34,8 +34,10 @@ You can buy a license for the plugin on the [AnyStack](https://checkout.anystack
     - [Character count](#character-count)
     - [Character limit](#character-limit)
     - [Character limit color](#character-limit-color)
+      - [Character limit border color](#character-limit-border-color)
     - [Character limit icon](#character-limit-icon)
     - [Copyable](#copyable)
+    - [Border color](#border-color)
     - [Filters](#filters)
         - [Advanced Select Filter](#advanced-select-filter)
         - [Advanced Toggle Buttons Filter](#toggle-buttons-filter)
@@ -322,6 +324,14 @@ If you want to change the color of the character limit you can use the **charact
 ->characterLimitColor('danger'),
 ```
 
+#### Character limit border color
+
+By default, the border color will not change when the limit is reached. You can change this by passing a second parameter.
+
+```php
+->characterLimitColor(color: 'danger', border: true),
+```
+
 ### Character limit icon
 
 If you want to change the icon of the character limit you can use the **characterLimitIcon** method.
@@ -336,6 +346,14 @@ Copyable works with the following components; `AdvancedTextInput` which will add
 
 ```php
 ->copyable()
+```
+
+### Border color
+
+If you want to change the border color of `AdvancedTextInput`, `AdvancedSelect` or `AdvancedTextarea` you can use the **borderColor** method. 
+
+```php
+->borderColor('primary')
 ```
 
 ### Filters
