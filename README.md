@@ -61,7 +61,13 @@ To install the plugin, you need to add the repository to your `composer.json` fi
 Once the repository has been added to the composer.json file, you can install the plugin using the following command.
 
 ```bash
-composer require codewithdennis/filament-advanced-components
+composer require codewithdennis/filament-advanced-components:^3.0
+```
+
+If you are using Filament `v4.x` you can install the plugin using the following command.
+
+```bash
+composer require codewithdennis/filament-advanced-components:^4.0
 ```
 
 You will be prompted to provide your username and password. The username will be the email address and the password will be equal to your license key.
@@ -76,6 +82,7 @@ Password: [license-key]
 ### Custom Theme
 You will need a [custom theme](https://filamentphp.com/docs/3.x/panels/themes#creating-a-custom-theme) to use the plugin.
 
+### Filament 3
 Make sure you add the following to your `tailwind.config.js file.
 
 ```bash
@@ -86,6 +93,15 @@ Include the following import in your theme stylesheet.
 
 ```css
 @import '/vendor/codewithdennis/filament-advanced-components/resources/css/index.css';
+```
+
+### Filament 4
+
+If you are using Filament `v4.x`, you will need to add the following to your theme stylesheet.
+
+```css
+@import '../../../../vendor/codewithdennis/filament-advanced-components/resources/css/index.css';
+@source '../../../../vendor/codewithdennis/filament-advanced-components/resources/views/filament/**/*';
 ```
 
 ## Getting Started
