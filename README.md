@@ -2,6 +2,8 @@
 
 This plugin **extends** existing **FilamentPHP** components with advanced features and enhanced functionality, offering more powerful and flexible options for your projects.
 
+[Demo](https://plugins.codewithdennis.com/admin/login)
+
 ## Licences
 You can buy a license for the plugin on the [AnyStack](https://checkout.anystack.sh/filament-advanced-components) website.
 
