@@ -36,7 +36,6 @@ You can buy a license for the plugin on the [AnyStack](https://checkout.anystack
     - [Character limit color](#character-limit-color)
       - [Character limit border color](#character-limit-border-color)
     - [Character limit icon](#character-limit-icon)
-    - [Copyable](#copyable)
     - [Border color](#border-color)
     - [Filters](#filters)
         - [Advanced Select Filter](#advanced-select-filter)
@@ -354,14 +353,6 @@ If you want to change the icon of the character limit you can use the **characte
 
 ```php
 ->characterLimitIcon('heroicon-s-exclamation'),
-```
-
-### Copyable
-
-Copyable works with the following components; `AdvancedTextInput` which will add a copy button to the input.
-
-```php
-->copyable()
 ```
 
 ### Border color
